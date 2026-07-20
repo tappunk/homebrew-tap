@@ -1,13 +1,13 @@
 class Utmd < Formula
   desc "Minimalist developer sandbox and disposable VM manager for UTM on macOS"
   homepage "https://github.com/tappunk/utmd"
-  version "0.1.9"
+  version "0.1.10"
 
   depends_on arch: :arm64
   depends_on :macos
 
   url "https://github.com/tappunk/utmd/releases/download/v#{version}/utmd-#{version}-bin-macos-arm64.tar.gz"
-  sha256 "2efe0eab868260830605d76cf8b3bf0dd0c39061fdec211e3ac541262745ba5b"
+  sha256 "9c1bfa7a6e93cc80856975141774fc84e48876d370cf6c7088aa5d2261ee07c6"
 
   def install
     bin.install "utmd"
