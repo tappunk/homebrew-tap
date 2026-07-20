@@ -1,13 +1,13 @@
 class Gre < Formula
   desc "Super fast git recap for multiple repositories"
   homepage "https://github.com/tappunk/gre"
-  version "0.1.8"
+  version "0.1.9"
 
   depends_on arch: :arm64
   depends_on :macos
 
   url "https://github.com/tappunk/gre/releases/download/v#{version}/gre-#{version}-bin-macos-arm64.tar.gz"
-  sha256 "60704210cce8fbe77d78bd3af4c3efb742c41946e9d5fe9454e8bae14809fc9b"
+  sha256 "80a0081afbf9a3765f9a22df798eaf4f4b6cea7c274246c056ccdb1e829d1c91"
 
   def install
     bin.install "gre"
