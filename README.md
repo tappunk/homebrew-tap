@@ -15,15 +15,15 @@ Homebrew tap for all tappunk tools.
 
 ```bash
 brew tap tappunk/tap
-brew install tnk
+brew install tappunk/tap/<FORMULA>
 ```
 
 ## Tools
 
 | Formula | Description | Docs |
 |---|---|---|
+| `tnk` | Zero-trust sandbox for local inference and secure AI coding agent runtimes | [tappunk/tnk](https://tappunk.com/tnk/) |
 | `gre` | Super fast git recap for multiple repositories | [tappunk/gre](https://github.com/tappunk/gre) |
 | `gsty` | Ghostty live preview theme browser and installer TUI | [tappunk/gsty](https://github.com/tappunk/gsty) |
-| `tnk` | Zero-trust sandbox for local inference and secure AI coding agent runtimes | [tappunk/tnk](https://tappunk.com/tnk/) |
 | `utmd` | Minimalist developer sandbox and disposable VM manager for UTM on macOS | [tappunk/utmd](https://github.com/tappunk/utmd) |
 
