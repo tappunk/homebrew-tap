@@ -15,7 +15,7 @@ Homebrew tap for all tappunk tools.
 
 ```bash
 brew tap tappunk/tap
-brew install gre gsty tnk utmd
+brew install tnk
 ```
 
 ## Tools
@@ -27,30 +27,3 @@ brew install gre gsty tnk utmd
 | `tnk` | Zero-trust sandbox for local inference and secure AI coding agent runtimes | [tappunk/tnk](https://tappunk.com/tnk/) |
 | `utmd` | Minimalist developer sandbox and disposable VM manager for UTM on macOS | [tappunk/utmd](https://github.com/tappunk/utmd) |
 
-## Quick start
-
-```bash
-# gre — parallel git status across repos
-gre                          # Show status across all repos
-gre --json                   # Output JSON for agents and scripts
-
-# gsty — Ghostty theme browser and installer
-gsty --list                  # List available themes
-gsty --apply <theme>         # Apply a theme
-
-# tnk — zero-trust sandbox
-tnk init                     # Initialize configuration
-tnk                          # Show runtime status
-tnk run                      # Boot engine + services
-tnk sandbox shell            # Enter project sandbox
-
-# utmd — disposable VM manager
-utmd list                    # List VMs
-utmd run <name>              # Boot a VM
-```
-
-## Verify
-
-```bash
-brew test gre gsty tnk utmd
-```
