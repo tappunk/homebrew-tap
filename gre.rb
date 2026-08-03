@@ -1,13 +1,14 @@
 class Gre < Formula
   desc "A super-fast multi-repo git recap for AI agents and speed-obsessed humans"
   homepage "https://github.com/tappunk/gre"
-  version "0.1.13"
+  license "MIT"
+  version "0.1.14"
 
   depends_on arch: :arm64
   depends_on :macos
 
   url "https://github.com/tappunk/gre/releases/download/v#{version}/gre-#{version}-bin-macos-arm64.tar.gz"
-  sha256 "115b27470751a17c1bb0e5276886aefc56d3eac54e0a90d156b957c389845867"
+  sha256 "02465361d9f0c8fca6af8af112c51dbf6aaf80a3cd5313800ebd3744ffd3f48a"
 
   def install
     bin.install "gre"
