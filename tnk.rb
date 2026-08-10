@@ -1,6 +1,6 @@
 class Tnk < Formula
   desc "Zero-trust sandbox for local inference and secure AI coding agent runtimes"
-  homepage "https://tappunk.com"
+  homepage "https://richalaleman.github.io"
   version "0.1.38"
 
   depends_on arch: :arm64
