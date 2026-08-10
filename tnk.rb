@@ -7,7 +7,7 @@ class Tnk < Formula
   depends_on "lima"
   depends_on "llama.cpp"
 
-  url "https://github.com/tappunk/tnk/releases/download/v#{version}/tnk-#{version}-bin-macos-arm64.tar.gz"
+  url "https://github.com/richalaleman/tnk/releases/download/v#{version}/tnk-#{version}-bin-macos-arm64.tar.gz"
   sha256 "fbae9441a62b0b47d7d7f37183e87a952bd5307802a526dcf214c5ebb90e9f2b"
 
   def install
