@@ -1,14 +1,14 @@
 class Tnk < Formula
   desc "Zero-trust sandbox for local inference and secure AI coding agent runtimes"
   homepage "https://tappunk.com"
-  version "0.1.45"
+  version "0.1.46"
 
   depends_on arch: :arm64
   depends_on "lima"
   depends_on "llama.cpp"
 
   url "https://github.com/tappunk/tnk/releases/download/v#{version}/tnk-#{version}-bin-macos-arm64.tar.gz"
-  sha256 "d4401f1bd6740292b6f8e1fa82816014c7bde9121264115393312fd60b913d67"
+  sha256 "c73bb783b883bf5219d6bb359fce6729f22ddbbda8ad3d172a7734ef11a08009"
 
   def install
     bin.install "tnk"
