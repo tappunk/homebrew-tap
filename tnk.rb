@@ -1,6 +1,7 @@
 class Tnk < Formula
   desc "Per-project sandbox VMs for AI agent runtimes"
   homepage "https://tappunk.com"
+  license "MIT"
   version "0.1.55"
 
   depends_on arch: :arm64
